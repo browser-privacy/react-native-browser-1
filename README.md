@@ -3,12 +3,16 @@ A cross-platform (iOS / Android), full-featured, highly customizable web browser
 # Install
 npm i react-native-webbrowser --save
 # Usage
-class SampleApp extends Component {
+Here is an extensive overview of the component usage.
+
+
+
+            
+     class SampleApp extends Component {
     render() {
         return (
-            <View style={{paddingTop:20, flex:1}}>
-            
-                <Webbrowser
+            <View style={{paddingTop:20, flex:1}}> 
+            <Webbrowser
                     url="https://your-url.com"
                     hideHomeButton={false}
                     hideToolbar={false}
