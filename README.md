@@ -47,3 +47,7 @@ Here is an extensive overview of the component usage.
 9.onNavigationStateChange - function(navState) optional, url change callback
 
 10.onShouldStartLoadWithRequest - function(event) optional, return false if the request should be stopped
+
+
+# Screenshots
+
