@@ -25,16 +25,25 @@ Here is an extensive overview of the component usage.
             </View>
         );
     }
-}
+    }
 
 # Props
-url - string required, web address
-hideAddressBar - bool optional, hides the address bar / address input
-hideStatusBar - bool optional, hides the status bar / site title
-hideToolbar - bool optional, hides the toolbar (nav bar)
-hideHomeButton - bool optional, hides just the home button from the toolbar
-hideActivityIndicator - booloptional, hides the activity indicator (loading) overlay
-foregroundColor - string optional, sets the forground color of text and icon elements
-backgroundColor - string optional, sets the background color
-onNavigationStateChange - function(navState) optional, url change callback
-onShouldStartLoadWithRequest - function(event) optional, return false if the request should be stopped
+1.url - string required, web address
+
+2.hideAddressBar - bool optional, hides the address bar / address input
+
+3.hideStatusBar - bool optional, hides the status bar / site title
+
+4.hideToolbar - bool optional, hides the toolbar (nav bar)
+
+5.hideHomeButton - bool optional, hides just the home button from the toolbar
+
+6.hideActivityIndicator - booloptional, hides the activity indicator (loading) overlay
+
+7.foregroundColor - string optional, sets the forground color of text and icon elements
+
+8.backgroundColor - string optional, sets the background color
+
+9.onNavigationStateChange - function(navState) optional, url change callback
+
+10.onShouldStartLoadWithRequest - function(event) optional, return false if the request should be stopped
